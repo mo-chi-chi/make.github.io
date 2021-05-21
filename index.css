@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+  background-color: black;
+}
+.head{
+  background-color:black;
+}
+.header{
+  font-size:70px;
+  text-align: center;
+  font-family:"HG行書体";
+  background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-logo{
+  font-size:35px;
+  text-align: center;
+  font-family:"HG行書体";
+  color:white;
+}
+li{
+  list-style-type: none;
+  font-size:20px;
+  display: flex;
+  float:left;
+  padding:20px;
+
+
+
+}
+
+li a {
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+
+}
